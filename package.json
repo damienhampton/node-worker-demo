@@ -1,10 +1,10 @@
 {
-  "name": "workerthread",
+  "name": "node-workerthread-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/_mocha test"
   },
   "keywords": [],
   "author": "Damien Hampton <damien@26brains.com> (https://twitter.com/damien_hampton)",

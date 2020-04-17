@@ -8,10 +8,6 @@ const app = express();
 const worker = new Worker(`${__dirname}/worker.js`);
 
 worker.on('error', () => { throw Error('boo') });
-// worker.on('exit', (code) => {
-//   if (code !== 0)
-//     throw Error(`Worker stopped with exit code ${code}`);
-// })
 
 function runWorkerTask(){
   return new Promise((resolve, reject) => {
