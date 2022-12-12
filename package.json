@@ -10,7 +10,7 @@
   "author": "Damien Hampton <damien@26brains.com> (https://twitter.com/damien_hampton)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
